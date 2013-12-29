@@ -10,7 +10,7 @@ package patterncommanda;
  *
  * @author lenovo
  */
-public class MacroCommand {
+public class MacroCommand implements Command{
     Command[] commands;
     
     public MacroCommand(Command[] commands) {
